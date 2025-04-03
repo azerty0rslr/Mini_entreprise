@@ -68,3 +68,4 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?6EAF1B3B0004E56F51F63EE8F
 ## Compte rendu avancé projet
 
 Nous avons établi l’énoncé du problème ainsi que l’elevator pitch. Nous avons également établi une première ébauche de budget pour le projet (500 000€). Pour finir la séance 3 il nous reste l’étude de marché ainsi que le cahier des charges.
+kaggle.com : site avec des bases de données (notamment des images)
