@@ -1,4 +1,4 @@
-# 🌱 AgriSenseAI – L’IA au service de la conservation agricole
+# 🌱 IA.D-Stocks – L’IA au service de la conservation agricole
 
 ## 🎓 Contexte du projet
 
@@ -6,7 +6,7 @@ Ce projet a été réalisé dans le cadre de la **1re année du dispositif "Entr
 
 > *Imaginer un bien ou un service basé sur l’intelligence artificielle qui aide les agriculteurs à mieux cultiver.*
 
-Notre réponse : **AgriSenseAI**, une solution intelligente d’aide à la conservation des récoltes, conçue pour optimiser les conditions de stockage agricoles grâce à la collecte de données en temps réel et à l’analyse prédictive.
+Notre réponse : **IA.D-Stocks**, une solution intelligente d’aide à la conservation des récoltes, conçue pour optimiser les conditions de stockage agricoles grâce à la collecte de données en temps réel et à l’analyse prédictive.
 
 ---
 
@@ -61,4 +61,22 @@ Aider les agriculteurs à :
 Chaque année, des milliers de tonnes de récoltes sont perdues à cause d’un mauvais stockage.  
 **AgriSenseAI** propose une solution concrète, basée sur l’intelligence artificielle, pour :
 
-✅ Mieux
+✅ Mieux stocker  
+✅ Mieux anticiper  
+✅ Moins gaspiller  
+✅ Mieux rentabiliser
+
+---
+
+## 📎 Ressources
+
+- [Présentation EPA (PDF / PPT)](./Prez_EPA.pptx)
+- [Tableau de budget](./Etablir_son_budget_-_Mini-M.xlsx)
+- [Prototype IA – Notebook Python](./prototype_agrisenseai.ipynb)
+
+---
+
+## 🙋‍♀️ Équipe projet
+
+Projet réalisé par une équipe d’étudiants de 1ère année dans le cadre de **Sup de Vinci** – Programme Entreprendre Pour Apprendre 2025.
+Ilan HEAS, Manon ROUSSELIERE, Landry COTILLON, Camélia DJENID, Oumar CISSE
