@@ -23,5 +23,7 @@ I: intègre les prévisions météorologiques,
 O: fournit des recommandations intelligentes, et
 apprend de chaque situation pour devenir plus performante au fil du temps.
 
+Voici le prototype de IA D-Stocks. Il suffit d'entrer les paramètres demandés et chaque semaine un e-mail vous est envoyé pour adapter au mieux la conservation de vos stocks.  
+
 I: IA.D-Stocks, c’est le stockage intelligent au service des agriculteurs et de l’agriculture durable.
 
