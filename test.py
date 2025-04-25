@@ -64,3 +64,5 @@ sender_email = input("Entrez votre adresse e-mail : ")
 sender_password = input("Entrez votre mot de passe : ")
 receiver_email = input("Entrez l'adresse e-mail du destinataire : ")
 em.envoie_mail(ex_pred, sender_email, sender_password, receiver_email)
+
+# end line
