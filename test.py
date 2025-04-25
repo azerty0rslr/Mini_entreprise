@@ -4,12 +4,15 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import joblib
 
+import envoie_de_mail as em
+
 # 1. Simulation d'un jeu de données
 np.random.seed(42)
 n_samples = 300
 temp = np.random.uniform(0, 40, n_samples)  # Température en °C
 humidity = np.random.uniform(10, 100, n_samples)  # Humidité en %
 zone_quality = np.random.choice([0, 1, 2], n_samples)  # 0 = mauvaise, 1 = moyenne, 2 = bonne
+
 
 # Fonction de durée théorique simplifiée
 def estimate_life(temp, humidity, quality):
@@ -47,8 +50,17 @@ def predict_conservation(temp, humidity, zone_quality):
     return round(prediction, 2)
 
 # 5. Exemple d'utilisation
-ex_pred = predict_conservation(18.5, 60, 2)
+import random
+temperature = random.randint(10, 20)
+humidity = random.randint(50, 70)
+zone_quality = random.randint(0, 2)
+ex_pred = predict_conservation(temperature, humidity, zone_quality)
 print(f"Durée estimée de conservation : {ex_pred} jours")
 
 # 6. Sauvegarde du modèle si besoin
 joblib.dump(model, "conservation_model.pkl")
+
+sender_email = input("Entrez votre adresse e-mail : ")
+sender_password = input("Entrez votre mot de passe : ")
+receiver_email = input("Entrez l'adresse e-mail du destinataire : ")
+em.envoie_mail(ex_pred, sender_email, sender_password, receiver_email)
